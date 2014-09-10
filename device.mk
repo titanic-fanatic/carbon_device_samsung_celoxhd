@@ -28,10 +28,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/celoxhd/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
 
-# init.d scripts
-PRODUCT_COPY_FILES += \
-    device/samsung/celoxhd/root/system/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays
-
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
 
