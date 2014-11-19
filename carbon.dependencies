@@ -1,7 +1,6 @@
 [
    {
-     "remote": "cm",
-     "repository": "CyanogenMod/android_device_samsung_qcom-common",
+     "repository": "titanic-fanatic/android_device_samsung_qcom-common",
      "target_path": "device/samsung/qcom-common",
      "revision": "cm-11.0"
    },
@@ -11,8 +10,7 @@
      "revision": "cm-11.0"
    },
    {
-     "remote": "cm",
-     "repository": "CyanogenMod/android_device_samsung_celox-common",
+     "repository": "titanic-fanatic/android_device_samsung_celox-common",
      "target_path": "device/samsung/celox-common",
      "revision": "cm-11.0"
    },
@@ -23,6 +21,12 @@
    },
    {
     "repository": "titanic-fanatic/android_vendor_samsung_celoxhd",
-    "target_path": "vendor/samsung/celoxhd"
+    "target_path": "vendor/samsung/celoxhd",
+     "revision": "cm-11.0"
+   },
+   {
+    "repository": "titanic-fanatic/android_hardware_qcom_power",
+    "target_path": "hardware/qcom/power",
+     "revision": "cm-11.0"
    }
 ]
