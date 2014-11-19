@@ -82,3 +82,8 @@ persist.radio.add_power_save=1
 # System proverty snapshot disable
 persist.radio.snapshot_disabled=1
 
+# Custom properties by titanic-fanatic
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+dalvik.vm.checkjni=false
+dalvik.vm.lockprof.threshold=500
