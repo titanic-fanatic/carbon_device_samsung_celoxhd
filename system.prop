@@ -83,6 +83,7 @@ persist.radio.add_power_save=1
 persist.radio.snapshot_disabled=1
 
 # Custom properties by titanic-fanatic
+persist.sys.usb.config=mtp,adb
 ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
 dalvik.vm.checkjni=false
